@@ -1,8 +1,10 @@
 package com.devtiro.realestate.domain.entities;
 
 import lombok.*;
+import org.springframework.context.event.EventListener;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.elasticsearch.annotations.*;
+import org.springframework.data.elasticsearch.core.event.AuditingEntityCallback;
 import org.springframework.data.elasticsearch.core.geo.GeoPoint;
 
 import java.math.BigDecimal;

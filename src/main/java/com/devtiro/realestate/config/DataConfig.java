@@ -515,7 +515,7 @@ public class DataConfig {
                                           int bathrooms, BigDecimal squareFeet, int yearBuilt,
                                           BigDecimal price, boolean hasGarage, int garageSpaces,
                                           boolean hasPool, boolean hasGarden, List<String> features) {
-        return PropertyListing.builder()
+        PropertyListing property = PropertyListing.builder()
                 .agentId(agentId)
                 .agentEmail(agentEmail)
                 .agentName(agentFirstName + " " + agentLastName)
@@ -541,6 +541,12 @@ public class DataConfig {
                 .features(features != null ? features : new ArrayList<>())
                 .photos(new ArrayList<>())
                 .build();
+
+        // Set audit fields
+        property.setCreatedBy("system");
+        property.setLastModifiedBy("system");
+
+        return property;
     }
 
     private String getClientIP(HttpServletRequest request) {

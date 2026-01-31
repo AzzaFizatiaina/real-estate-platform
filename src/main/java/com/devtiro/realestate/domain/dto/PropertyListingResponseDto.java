@@ -42,10 +42,12 @@ public class PropertyListingResponseDto {
     private Integer garageSpaces;
     private Boolean hasPool;
     private Boolean hasGarden;
-    private LocalDateTime listedDate;
-    private LocalDateTime updatedDate;
     private Double distanceInKm; // Distance from search point (only populated in geo searches)
     private LocalDateTime soldDate;
 
+    private String createdBy;
+    private String lastModifiedBy;
+    private LocalDateTime listedDate;
+    private LocalDateTime updatedDate;
 
 }

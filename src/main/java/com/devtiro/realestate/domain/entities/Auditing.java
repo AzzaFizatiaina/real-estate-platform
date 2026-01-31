@@ -7,6 +7,7 @@ import org.springframework.data.annotation.CreatedBy;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedBy;
 import org.springframework.data.annotation.LastModifiedDate;
+import org.springframework.data.domain.Persistable;
 import org.springframework.data.elasticsearch.annotations.DateFormat;
 import org.springframework.data.elasticsearch.annotations.Field;
 import org.springframework.data.elasticsearch.annotations.FieldType;
@@ -16,7 +17,7 @@ import java.time.LocalDateTime;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Auditing {
+public abstract class Auditing implements Persistable<String> {
 
     @CreatedBy
     protected String createdBy;
@@ -32,4 +33,11 @@ public class Auditing {
     @Field(type = FieldType.Date, format = DateFormat.date_hour_minute_second_millis)
     protected LocalDateTime lastModifiedDate;
 
+    @Override
+    public abstract String getId();
+
+    @Override
+    public boolean isNew() {
+        return getId() == null || (createdDate == null && createdBy == null);
+    }
 }

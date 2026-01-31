@@ -17,8 +17,8 @@ public class SpringSecurityAuditorAware implements AuditorAware<String> {
         return Optional.ofNullable(SecurityContextHolder.getContext())
                 .map(SecurityContext::getAuthentication)
                 .filter(Authentication::isAuthenticated)
+                //.map(Authentication::getName);
                 .map(Authentication::getPrincipal)
-                // or Authentication::getName, and the stuff below is not necessary
                 .map(principal -> {
                     // Case 1: Principal is your custom User entity
                     if (principal instanceof User user) {
